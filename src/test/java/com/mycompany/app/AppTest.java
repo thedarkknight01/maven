@@ -34,7 +34,11 @@ public class AppTest
     {
         App.main(null);
         try {
+<<<<<<< HEAD
             assertEquals("Hello World from git and jenkins!" + System.getProperty("line.separator"), outContent.toString());
+=======
+            assertEquals("Hello World from git!" + System.getProperty("line.separator"), outContent.toString());
+>>>>>>> d5131d3b6581f9ee96d52d1addd44d9852bcf007
         } catch (AssertionError e) {
             fail("\"message\" is not \"Hello World!\"");
         }

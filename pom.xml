@@ -18,7 +18,7 @@
   <build>
     <plugins>
       <plugin>
-        <!-- Build an execuetable JAR -->
+        <!-- Build an exetable JAR -->
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-jar-plugin</artifactId>
         <version>3.0.2</version>
